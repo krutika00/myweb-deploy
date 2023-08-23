@@ -20,7 +20,9 @@ const Home = () => {
 
   return (
     <div>
+       <div className="home-page-container">
     <header>
+    
         <div class="logo"><img src="logo512.png" width={50} height={50}/>Amazing Website</div>
         <div class="login-menu">
             <div class="login-item" onClick={handleContactClick}>Contact</div>
@@ -29,8 +31,10 @@ const Home = () => {
            
         </div>
     </header>
+   
     <Main />
     <Footer />
+    </div>
     </div>
   );
 };

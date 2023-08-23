@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Login.css'; // Import your CSS file
 
+
 function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -17,6 +18,7 @@ function Login() {
   };
 
   return (
+   <div className='login-page-container'>
     <div className="login-container">
       <div className="login-form">
         <label className="input-label">Username</label>
@@ -40,9 +42,10 @@ function Login() {
           Login
         </button>
         <p className="registration-link">
-          New user? <Link to="/login/registration">Register here</Link>
+          New user? <Link to="/login/registaion">Register here</Link>
         </p>
       </div>
+    </div>
     </div>
   );
 }
