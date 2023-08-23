@@ -23,7 +23,7 @@ const Home = () => {
        <div className="home-page-container">
     <header>
     
-        <div class="logo"><img src="logo512.png" width={50} height={50}/>Amazing Website</div>
+        <div class="logo"><img src="../public/logo512.png" width={50} height={50}/>Amazing Website</div>
         <div class="login-menu">
             <div class="login-item" onClick={handleContactClick}>Contact</div>
             <div class="login-item" onClick={handleAboutClick}>About</div>

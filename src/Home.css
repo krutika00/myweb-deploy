@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #1a78c4;
+    background-color: #360404ad;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@ header {
 }
 
 .footer{
-    background-color: #70b5ec;
+    background-color: #3fb875;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -71,7 +71,7 @@ header {
   }
   
   .profile-button:hover {
-    background-color: #0056b3;
+    background-color: #595b5e;
   }
   .home-page-container {
     background-image: url('../public/bgboyimage.jpg'); /* Adjust the path based on your project structure */
